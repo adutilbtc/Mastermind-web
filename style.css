@@ -1,10 +1,10 @@
 html {
-    background-image:url("checks.jpg");
+    background-image:url("table.jpg");
 }
 
 #console{
 	border: 2px solid black;
-    background-image:url("1095.png");
+    background-image:url("spaghetti.jpg");
     padding: 10px;
     border-radius: 25px;
     width: 500px;
@@ -15,7 +15,7 @@ html {
 #board, #makeGuess {
     border-radius: 5px;
     font-size: 25px;
-    background-color: white;
+    background-color: gray;
     padding:10px;
 	margin:20px auto;
     width: 87%;
