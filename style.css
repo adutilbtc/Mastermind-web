@@ -74,13 +74,13 @@ button:active, button:visited, button:focus {
 
 /* Graphic Mastermind Model CSS */
 
-.m { background-color:magenta; }
-.g { background-color:green; }
-.c { background-color:cyan; }
-.r { background-color:red; }
-.w { background-color:white; }
-.b { background-color:black;color:white; }
-.y { background-color:yellow; }
+.m { background-color:magenta; background-image:none; }
+.g { background-color:green; background-image:none; }
+.c { background-color:cyan; background-image:none; }
+.r { background-color:red; background-image:none; }
+.w { background-color:white; background-image:none; }
+.b { background-color:black;color:white; background-image:none;}
+.y { background-color:yellow; backgorund-image:none; }
 
 #turns {
 	width:315px;
