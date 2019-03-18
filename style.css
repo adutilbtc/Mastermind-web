@@ -80,7 +80,7 @@ button:active, button:visited, button:focus {
 .r { background-color:red; background-image:none; }
 .w { background-color:white; background-image:none; }
 .b { background-color:black;color:white; background-image:none;}
-.y { background-color:yellow; backgorund-image:none; }
+.y { background-color:yellow; background-image:none; }
 
 #turns {
 	width:315px;
