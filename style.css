@@ -7,6 +7,8 @@ html {
 #console{
 	border: 2px solid black;
     background-image:url("spaghetti.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
     padding: 10px;
     border-radius: 25px;
     width: 500px;
