@@ -1,1 +1,2 @@
-# repl.it
+# mastermind-web
+Web Page version of Mastermind

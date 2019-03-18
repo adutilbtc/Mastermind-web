@@ -1,59 +1,85 @@
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <script language="javascript" type="text/javascript" src="webhelper.js"></script>
   <script language="javascript" type="text/javascript" src="mastermind.js"></script>
   <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
 <body>
 	<div id = "console">
-	    <div id = "board">Web Helper Not Loaded</div>
-	    <ol id="colors">
+    <div id = "board">
+  	  <h1 id = "title">Web Helper Not Loaded</h1>
+			<ul id = "turns">
+				<li>
+					<ul class="turn"> 
+						<li class="r"></li> 
+						<li class="c"></li> 
+						<li class="y"></li> 
+						<li class="g"></li> 
+						<li class="b"></li>
+						<li class="w"></li>
+					</ul>  
+				</li>
+				<li>
+					<ul class="turn"> 
+						<li class="r"></li> 
+						<li class="c"></li> 
+						<li class="g"></li> 
+						<li class="g"></li> 
+						<li class="b"></li>
+						<li class="b"></li>
+					</ul>  
+				</li>
+			</ul>
+		</div>
+	  <div id = "makeGuess">
+  	  <ol id="colors">
 	    	<li><select onchange="this.className=this.options[this.selectedIndex].className" id = "0">
-	            <option value="q" class="magenta">Quit</option> 
-	            <option value="r" class="red" >Red</option> 
-	            <option value="g" class="green" >Green</option> 
-	            <option value="c" class="cyan" >Cyan</option> 
-	            <option value="y" class="yellow" >Yellow</option> 
-	            <option value="b" class="black" >Black</option> 
-	            <option value="w" class="white" >White</option> 
-	            <option value="" class="white" selected></option>          
+	            <option value="r" class="r" ></option>
+	            <option value="g" class="g" ></option>
+	            <option value="c" class="c" ></option>
+	            <option value="y" class="y" ></option>
+	            <option value="b" class="b" ></option>
+	            <option value="w" class="w" ></option>
+				<option value="q" class="m" ></option>
+	            <option value="" class="" selected></option>
 	          </select>
 	      	</li>
 	    	<li><select onchange="this.className=this.options[this.selectedIndex].className" id = "1">
-	            <option value="r" class="red" >Red</option> 
-	            <option value="g" class="green" >Green</option>   
-	            <option value="c" class="cyan" >Cyan</option> 
-	            <option value="y" class="yellow" >Yellow</option> 
-	            <option value="b" class="black" >Black</option> 
-	            <option value="w" class="white" >White</option>      
-	            <option value="" class="white"  selected></option>               
+	            <option value="r" class="r" ></option>
+	            <option value="g" class="g" ></option>
+	            <option value="c" class="c" ></option>
+	            <option value="y" class="y" ></option>
+	            <option value="b" class="b" ></option>
+	            <option value="w" class="w" ></option>
+	            <option value="" class="" selected></option>
 	          </select>
 	      	</li>
 	    	<li><select onchange="this.className=this.options[this.selectedIndex].className" id = "2">
-	            <option value="r" class="red" >Red</option> 
-	            <option value="g" class="green" >Green</option> 
-	            <option value="c" class="cyan" >Cyan</option> 
-	            <option value="y" class="yellow" >Yellow</option> 
-	            <option value="b" class="black" >Black</option> 
-	            <option value="w" class="white" >White</option>     
-	            <option value="" class="white"  selected></option>                    
+	            <option value="r" class="r" ></option>
+	            <option value="g" class="g" ></option>
+	            <option value="c" class="c" ></option>
+	            <option value="y" class="y" ></option>
+	            <option value="b" class="b" ></option>
+	            <option value="w" class="w" ></option>
+	            <option value="" class="" selected></option>
 	          </select>
 	      	</li>
 	    	<li><select onchange="this.className=this.options[this.selectedIndex].className" id = "3">
-	            <option value="r" class="red" >Red</option> 
-	            <option value="g" class="green" >Green</option> 
-	            <option value="c" class="cyan" >Cyan</option> 
-	            <option value="y" class="yellow" >Yellow</option> 
-	            <option value="b" class="black" >Black</option> 
-	            <option value="w" class="white" >White</option>    
-	            <option value="" class="white" selected></option>            
+	            <option value="r" class="r" ></option>
+	            <option value="g" class="g" ></option>
+	            <option value="c" class="c" ></option>
+	            <option value="y" class="y" ></option>
+	            <option value="b" class="b" ></option>
+	            <option value="w" class="w" ></option>
+	            <option value="" class="" selected></option>
 	          </select>
 	      	</li>
-	  	</ol>      	
-	    <button id="submit-guess" onclick="newGuess()">Submit Guess</button>
+  	  	</ol>
+  	    <button id="submit-guess" onclick="newGuess()"></button>
 	</div>
+</div>
 </body>
 </html>
