@@ -20,7 +20,9 @@ html {
 #board, #makeGuess {
     border-radius: 5px;
     font-size: 25px;
-    background-color: white;
+    background-image:url("spaghetti.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
     padding:10px;
 	margin:20px auto;
     width: 87%;
